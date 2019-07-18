@@ -1,0 +1,26 @@
+.theblog {
+  font-family: 'Megrim', cursive;
+  font-size: 40px;
+}
+#myImg {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.date {
+  font-family: 'Raleway', sans-serif;
+}
+
+.tinygallery {
+  padding-left: 10px;
+}
+
+/* .fun {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+
+} */

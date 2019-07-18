@@ -1,0 +1,356 @@
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg1 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+
+#myImg2 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+
+#myImg5 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+
+#myImg6 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg6:hover {opacity: 0.7;}
+
+#myImg7 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg7:hover {opacity: 0.7;}
+
+#myImg8 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg8:hover {opacity: 0.7;}
+
+#myImg9 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg9:hover {opacity: 0.7;}
+
+#myImg10 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg10:hover {opacity: 0.7;}
+
+#myImg11 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg11:hover {opacity: 0.7;}
+
+#myImg12 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg12:hover {opacity: 0.7;}
+
+#myImg13 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg13:hover {opacity: 0.7;}
+
+#myImg14 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg14:hover {opacity: 0.7;}
+
+#myImg15 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg15:hover {opacity: 0.7;}
+
+#myImg16 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg16:hover {opacity: 0.7;}
+
+#myImg17 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg17:hover {opacity: 0.7;}
+
+#myImg18 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg18:hover {opacity: 0.7;}
+
+#myImg19 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg19:hover {opacity: 0.7;}
+
+#myImg20 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg20:hover {opacity: 0.7;}
+
+#myImg21 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg21:hover {opacity: 0.7;}
+
+#myImg22 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg22:hover {opacity: 0.7;}
+
+#myImg23 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg23:hover {opacity: 0.7;}
+
+#myImg24 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg24:hover {opacity: 0.7;}
+
+#myImg25 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg25:hover {opacity: 0.7;}
+
+#myImg26 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg26:hover {opacity: 0.7;}
+
+#myImg27 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg27:hover {opacity: 0.7;}
+
+#myImg28 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg28:hover {opacity: 0.7;}
+
+#myImg29 {
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+#myImg29:hover {opacity: 0.7;}
+
+@keyframes zoom {
+ from {transform:scale(0)}
+ to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+ position: absolute;
+ top: 15px;
+ right: 35px;
+ color: #f1f1f1;
+ font-size: 40px;
+ font-weight: bold;
+ transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+ color: #bbb;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+ .modal-content {
+   width: 100%;
+ }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

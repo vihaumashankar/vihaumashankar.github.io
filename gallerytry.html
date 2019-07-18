@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <meta charset="utf-8">
+    <style>
+    .w3-quarter img{margin-bottom: -6px; cursor: pointer}
+    .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+    </style>
+    <title></title>
+  </head>
+  <body>
+
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+      <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+    <div class="w3-row w3-grayscale-min">
+      <div class="w3-quarter">
+        <img src="https://scontent-frt3-1.cdninstagram.com/vp/5d18cb4268755c5244e438cc81022a9c/5DC2F46D/t51.2885-15/sh0.08/e35/s640x640/64780206_153610835805611_4647506067985661109_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com" style="width:100%" onclick="onClick(this)" alt="@lizzobeeating
+    ">
+        <img src="https://scontent-lga3-1.cdninstagram.com/vp/fa809db613067d41e16273387f59f8d1/5D468D15/t51.2885-15/sh0.08/e35/p750x750/56744733_365358944077026_755337830876620280_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&ig_cache_key=MjAyMjA2MTgyMjQzMzI1OTU3Nw%3D%3D.2" style="width:100%" onclick="onClick(this)" alt="@notoriouslydapper">
+
+     </div>
+
+     <div class="w3-quarter">
+        <img src="https://scontent-frx5-1.cdninstagram.com/vp/a19de498223458ca36d72509feb6d73a/5D786DCD/t51.2885-15/e35/p1080x1080/58409010_898764850483409_7863000758609545641_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&ig_cache_key=MjA0MDE2NzYwMDQ1OTA4Mjk1NA%3D%3D.2" style="width:100%" onclick="onClick(this)" alt="@zachmiko">
+        <img src="https://www.verywellmind.com/thmb/zczSSi_sEqLdIUGNOmbtCiZ3grM=/1350x1080/filters:no_upscale():max_bytes(150000):strip_icc()/Olakemi2-5b103cb6a474be0038241112.jpg" style="width:100%" onclick="onClick(this)" alt="@_olakemi_">
+
+      </div>
+
+      <div class="w3-quarter">
+        <img src="https://pbs.twimg.com/media/CbwNPZIVIAAatHl.jpg" style="width:100%" onclick="onClick(this)" alt="@aannggeellll">
+        <img src="https://66.media.tumblr.com/avatar_303d33981d23_512.pnj" style="width:100%" onclick="onClick(this)" alt="@mattjosephdiaz">
+
+      </div>
+
+      <div class="w3-quarter">
+        <img src="https://scontent-lga3-1.cdninstagram.com/vp/ce29d987c39cf4b9735469fa72371ace/5D8D4D2B/t51.2885-15/sh0.08/e35/s640x640/61862319_373910709904145_7006659561474333908_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com" style="width:100%" onclick="onClick(this)" alt="@chellaman">
+        <img src="https://i.f1g.fr/media/madame/1900x1900/sites/default/files/img/2017/11/le-quotidien-de-micah-photo-7.png" style="width:100%" onclick="onClick(this)" alt="@lifewithmicah">
+
+      </div>
+    </div>
+
+    <script>
+
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    </script>
+  </body>
+</html>
